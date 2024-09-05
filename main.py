@@ -11,7 +11,7 @@ from pyrogram.types import Message
 import pyrogram
 import tgcrypto
 from p_bar import progress_bar
-#from details import api_id, api_hash, bot_token
+from details import api_id, api_hash, bot_token
 from subprocess import getstatusoutput
 import helper
 import logging
@@ -21,14 +21,14 @@ import aiohttp
 import asyncio
 import aiofiles
 from pyrogram.types import User, Message
-# import progressor
-# from progressor import progress_for_pyrogram
-#import sys
+import progressor
+from progressor import progress_for_pyrogram
+import sys
 import re
 import os
 import io
 import logging
-#import pycurl
+import pycurl
 
 # bot = Client(
 #     "bot",
